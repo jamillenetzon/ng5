@@ -1,0 +1,38 @@
+.wrapper{
+    padding: 0 35px 0 35px;
+    .container{ 
+        display: grid;
+        grid-template-columns: 50% auto;
+    
+        .col{
+            padding: 1em 3em; 
+            .sm{
+                font-size: .8em;
+            }
+            input[type=text]{
+                padding: 10px;
+                border-radius: 5px;
+                margin-bottom: 1em;
+            }
+            input[type=submit]{
+                padding: 10px;
+                background: lightgreen;
+                border-radius : 5px; 
+                text-transform: uppercase;
+                display: block;
+            }
+            .life-container{
+                padding: 0.5em;
+                background: #2885c4;
+                border-radius: 5px;
+            }
+        } 
+    }
+    .color-dark{
+        background: #2885c4
+    }
+    .color-light{
+        background: #57b3f1
+    }
+
+}
